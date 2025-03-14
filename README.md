@@ -76,6 +76,7 @@ Optimisasi ini berhasil mengurangi waktu eksekusi, terutama pada endpoint **All-
 --- 
 
 <details><summary>Refleksi 1</summary>
+  
 > What is the difference between the approach of performance testing with JMeter and profiling with IntelliJ Profiler in the context of optimizing application performance?
 
 - **JMeter** digunakan untuk melakukan **pengujian performa berbasis beban** (load testing) dengan mensimulasikan banyak pengguna yang mengakses aplikasi secara bersamaan. Ini membantu dalam **mengevaluasi kapasitas aplikasi**, menemukan batas skalabilitas, dan mengidentifikasi potensi bottleneck pada tingkat infrastruktur.  
@@ -83,6 +84,7 @@ Optimisasi ini berhasil mengurangi waktu eksekusi, terutama pada endpoint **All-
 </details>
 
 <details><summary>Refleksi 2</summary>
+  
 > How does the profiling process help you in identifying and understanding the weak points in your application?
 
 Profiling memberikan insight yang lebih detail dibandingkan pengujian performa biasa dengan cara:  
@@ -92,12 +94,14 @@ Profiling memberikan insight yang lebih detail dibandingkan pengujian performa b
 </details>
 
 <details><summary>Refleksi 3</summary>
+  
 > Do you think IntelliJ Profiler is effective in assisting you to analyze and identify bottlenecks in your application code?
 
 Ya, IntelliJ Profiler cukup efektif dalam membantu mengidentifikasi bottleneck pada kode aplikasi. Dengan fitur seperti **CPU profiling, memory analysis, dan thread monitoring**, kita bisa mengetahui bagian mana dari kode yang perlu diperbaiki. Namun, **profiling lebih efektif untuk analisis di lingkungan pengembangan**, sedangkan pengujian performa dengan JMeter lebih cocok untuk simulasi kondisi dunia nyata.  
 </details>
 
 <details><summary>Refleksi 4</summary>
+  
 > What are the main challenges you face when conducting performance testing and profiling, and how do you overcome these challenges?
 
 1. **Data yang tidak konsisten antara pengujian performa dan profiling** → Bisa terjadi karena perbedaan lingkungan (dev vs production). Solusinya adalah **menjalankan profiling dalam kondisi yang menyerupai produksi** sebanyak mungkin.  
@@ -106,6 +110,7 @@ Ya, IntelliJ Profiler cukup efektif dalam membantu mengidentifikasi bottleneck p
 </details>
 
 <details><summary>Refleksi 5</summary>
+  
 > What are the main benefits you gain from using IntelliJ Profiler for profiling your application code?
 
 - **Identifikasi bottleneck secara detail** hingga tingkat metode.  
@@ -115,6 +120,7 @@ Ya, IntelliJ Profiler cukup efektif dalam membantu mengidentifikasi bottleneck p
 </details>
 
 <details><summary>Refleksi 6</summary>
+  
 > How do you handle situations where the results from profiling with IntelliJ Profiler are not entirely consistent with findings from performance testing using JMeter?
 
 Jika hasil dari profiling tidak sesuai dengan temuan JMeter, beberapa langkah yang bisa dilakukan:  
@@ -124,6 +130,7 @@ Jika hasil dari profiling tidak sesuai dengan temuan JMeter, beberapa langkah ya
 </details>
 
 <details><summary>Refleksi 7</summary>
+  
 > What strategies do you implement in optimizing application code after analyzing results from performance testing and profiling? How do you ensure the changes you make do not affect the application's functionality?
 
 1. **Optimasi algoritma** → Misalnya mengganti algoritma pencarian atau sorting yang lebih efisien.  
